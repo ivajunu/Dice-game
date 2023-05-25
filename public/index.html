@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Chat</title>
+</head>
+
+<body>
+  <div class="entry">
+    <h1>Tärningsspel & Chatt</h1>
+    <p>Här kan du tävla om vem som får mest poäng på flera tärningskast! Du tävlar mot en annan spelare, och kan även
+      chatta med din motståndare under tiden.</p>
+    <p>Må den bäste spelaren vinna! Lycka till...</p>
+  </div>
+  <h2 id="startname">Börja med att skriva in ditt namn...</h2>
+  <div id="userName"></div>
+  <form id="inputU" action="">
+    <input type="text" id="nameU">
+    <button>SKICKA</button>
+  </form>
+  <!-- input för namn -->
+  <h2 id="sendmessage">Skicka ett meddelande till din motståndare</h2>
+  <form id="inputmessage" action="">
+    <input type="text" id="chat">
+    <button>SKICKA</button>
+  </form>
+  <!-- skicka meddelande -->
+  <h2>Meddelanden</h2>
+  <div id="msg">
+    <p id="time"></p>
+    <ul id="messages"></ul>
+  </div>
+  <!-- visar meddelande -->
+  <h2>Tärningsspel</h2>
+  <form action="" id="dice">
+    <button id="dicerandom">KASTA TÄRNING</button>
+  </form>
+  <div id="diceresult">
+    <ul id="dicelist"></ul>
+  </div>
+  <footer>
+    <p>Spel & chatt gjord av Ivanna Junuzovic</p>
+  </footer>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

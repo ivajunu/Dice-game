@@ -1,0 +1,38 @@
+#sendmessage, #inputmessage {
+  display: none;
+}
+h1,h2,h3 {
+  color:rgb(100, 11, 97);
+}
+body {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  background-color: rgb(239, 239, 235);
+}
+.entry {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  border-radius: 5px;
+  background-color: rgba(209, 140, 203, 0.25);
+  font-size: 16px;
+  border: solid 2px rgb(75, 13, 58);
+  font-size: inherit;
+  padding: 5px;
+}
+button {
+  background-color: rgb(219, 53, 214);
+  border-radius: 5px;
+  box-shadow: rgba(148, 58, 143, 0.25) 0px 2px 5px -1px;
+  border: solid 2px rgb(75, 13, 58);
+  padding: 5px;
+  font-weight: bolder;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 10px;
+}
